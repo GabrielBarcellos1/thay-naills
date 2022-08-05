@@ -12,15 +12,6 @@ body {
     background-color:#80808046;
     font-family: 'Times New Roman', Times, serif;
 }
-.logo {
-    background: rgb(245, 12, 160);
-    display: flex;
-    
-}
-.foto {
-    margin-left: 10%;
-    padding: 1%;
-}
 
 .container {
     color: black;
@@ -29,10 +20,20 @@ body {
 }
 
 .nav-list {
-    font-size: 30px;
+    margin-top: 130px;
     list-style: none;
     display: flex;
-    margin: auto;
+}
+
+
+
+h1 {
+    text-align-last: center;
+    color: white;
+    padding-left: 80px;
+    margin: 10px;
+    letter-spacing: 4px;
+    font-size: 40px;
 }
 
 
@@ -40,6 +41,7 @@ nav {
     padding-left: 280px;
     margin: 25px;
     font-size: 28px;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     height: 8vh;
@@ -61,7 +63,6 @@ a:hover {
 .galery {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgba(228, 26, 120, 0.829); ;
-    text-align: center;
 }
 
 header{
@@ -71,6 +72,12 @@ header{
     align-items: center;
 }
 
+header h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #000;
+}
 
 /* Galeria */
 
@@ -95,6 +102,7 @@ header{
     width: 100%;
     height: 100%;
     object-fit: cover;
+
 }
 
 .gallery-items:hover{
@@ -120,9 +128,8 @@ footer {
 }
 
 @media (max-width: 800px) {
-    .foto {
+    .logo {
         text-align: center;
-        margin: auto;
-        padding: 0;
+        margin-left: 19%;
     }
 }
