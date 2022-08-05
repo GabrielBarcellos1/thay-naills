@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 ul {
     list-style: none;
 }
@@ -14,9 +15,18 @@ body {
 
 .container {
     color: black;
-    background-color: rgb(228, 26, 120);
+    background-color: rgb(245, 12, 160);
     display: flex;
 }
+
+.nav-list {
+    margin-top: 130px;
+    list-style: none;
+    display: flex;
+}
+
+
+
 h1 {
     text-align-last: center;
     color: white;
@@ -26,13 +36,9 @@ h1 {
     font-size: 40px;
 }
 
-.nav-list {
-    list-style: none;
-    display: flex;
-}
 
 nav {
-    padding-left: 450px;
+    padding-left: 280px;
     margin: 25px;
     font-size: 28px;
     display: flex;
@@ -48,7 +54,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color:black;
+    color: #000;
 	font-size: 120%;
 }
 
@@ -115,3 +121,15 @@ footer {
 }
 
 
+@media (max-width: 800px) {
+    .nav-list {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .logo {
+        text-align: center;
+        margin-left: 19%;
+    }
+}
